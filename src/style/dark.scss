@@ -1,0 +1,87 @@
+.app.dark {
+    background-color: #111;
+
+    .themeCapsule {
+        background-color: white;
+    }
+
+    .ball {
+        background-color: #111;
+    }
+
+    .world-icon,
+    .arrow-icon {
+        color: white;
+    }
+
+    .list-items {
+        color: white;
+    }
+
+    .line {
+        background-color: white;
+    }
+
+    .hello-span,
+    .seniority,
+    .name-span,
+    .light-icon,
+    .moon-icon {
+        color: white;
+    }
+
+    .CV-button {
+        background-image: linear-gradient(to right, #4958DE, #8150F2);
+        color: white;
+    }
+
+    .title,
+    .sub-text,
+    .text,
+    .sub-title {
+        color: white;
+    }
+
+    .capsule {
+        background-color: #695e5e11;
+        color: white;
+    }
+
+    .cards,
+    .card,
+    .form-container {
+        background-color: #695e5e11;
+
+        h2,
+        p,
+        label {
+            color: white;
+        }
+
+        &:hover {
+            background-color: #695e5e11;
+        }
+    }
+
+    .button {
+        background-color: #C9C6C6;
+        color: black;
+    }
+
+    .linkedin-icon,
+    .github-icon,
+    .mail-icon,
+    .mail-label,
+    .mail-text {
+        color: white;
+    }
+
+    .copyright {
+        color: white;
+    }
+
+    .no-projects {
+        color: white;
+    }
+
+}

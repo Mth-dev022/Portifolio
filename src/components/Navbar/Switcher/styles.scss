@@ -1,0 +1,39 @@
+.dropdown {
+    font-family: 'Rubik', 'sans-serif';
+    font-size: 14px;
+    width: 120px;
+    height: 100px;
+
+    .menu {
+        list-style: none;
+        cursor: pointer;
+    }
+
+    ;
+
+    .arrow-icon {
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    .world-icon {
+        font-size: 23px;
+        cursor: pointer;
+    }
+
+    .container {
+        padding: 5px 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background: #DDDDDD;
+        width: 135px;
+        height: 80px;
+        border-radius: 5px;
+        font-weight: 700;
+
+        span {
+            margin-right: 10px;
+        }
+    }
+}

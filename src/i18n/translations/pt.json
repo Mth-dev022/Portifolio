@@ -1,0 +1,67 @@
+{
+    "translation": {
+        "About": "Sobre",
+        "Skills": "Habilidades",
+        "Projects": "Projetos",
+        "Contact": "Contato",
+
+        "Hello":"Olá",
+        "My name is Matheus": "Me chamo Matheus",
+        "Front-end Developer": "Desenvolvedor Front-End",
+        "Hire": "Contratar",
+        "Get resume": "Obter Curriculo",
+
+        "LET'S TALK ABOUT ME": "VAMOS FALAR SOBRE MIM",
+
+        "As a front-end developer, my focus is creating digital experiences that go beyond basic functionality. I see myself as a digital architect, designing interfaces that not only work, but also engage and captivate users.": "Como desenvolvedor front-end, meu foco é criar experiências digitais que vão além da funcionalidade básica. Vejo-me como um arquiteto digital, projetando interfaces que não apenas funcionam, mas também envolvem e cativam os usuários.",
+
+        "It’s about giving shape to digital, creating a unique and immersive experience for users. We are the architects of the digital world, bringing every line of code and every pixel on the screen to life. Together, we build the future of the web, where creativity flourishes and digital life comes to life.": "É dar forma ao digital, criando uma experiência única e imersiva para os usuários. Somos os arquitetos do mundo digital, dando vida a cada linha de código e cada pixel na tela. Juntos, construímos o futuro da web, onde a criatividade floresce e a vida digital ganha vida.",
+
+        "Download CV": "Obter CV",
+
+        "As a developer, I have a wide range of technical skills and competencies that allow me to create innovative and efficient solutions.": "Como desenvolvedor, possuo uma ampla gama de habilidades técnicas e competências que me permitem criar soluções inovadoras e eficientes.",
+
+        "Tools": "Ferramentas",
+        "of technologies that I master":"de tecnologias que domino",
+        "LIBRARIES": "BIBLIOTECAS",
+
+        "Libraries that I have experience working with:": "Bibliotecas que tenho expêriencia em trabalhar:",
+        "Knowledge of working with APIs in the REST standard.": "Conhecimentos em trabalhar com API's No padrão REST.",
+
+        "ecosystem": "ecossistema",
+        "DATABASES": "BANCO DE DADOS",
+        "Knowledge to manage:": "Conhecimentos para administrar:",
+        "Project Gallery": "Galeria de Projetos",
+
+        "Welcome to my project gallery! Here, I share with you some of what I have created as a programmer.": "Bem-vindo à minha galeria de projetos! Aqui, compartilho com você um pouco do que tenho criado como programador.",
+
+        "ALL": "TODOS",
+        "RECENT": "RECENTES",
+        "UNDER DEVELOPMENT": "EM DESENVOLVIMENTO",
+
+        "The hotel booking app provides a simple and secure platform to find and book accommodation across multiple cities. With it, users can select their desired destination and stay dates, view a list of available hotels, and compare amenities and prices before making their choice.": "O aplicativo de reservas de hotel oferece uma plataforma simples e segura para encontrar e reservar acomodações em várias cidades. Com ele, os usuários podem selecionar o destino desejado e as datas da estadia, visualizar uma lista de hotéis disponíveis e comparar comodidades e preços antes de fazer sua escolha..",
+
+        "Full stack blog that combines React.js on the frontend and Node.js with MySQL on the backend. In the user authentication part, I integrated the functionality using JSON Web Tokens (JWT), with the JWT tokens stored in cookies for efficient management of user sessions. Additionally, the application enables users to create and edit blog posts, with posts being saved directly to the database, ensuring effective persistence of information.": "Blog full stack que combina React.js no frontend e Node.js com MySQL no backend. Na parte de autenticação do usuario, integrei a funcionalidade utilizando JSON Web Tokens (JWT), com os tokens JWT armazenados em cookies para uma gestão eficiente das sessões dos usuários. Além disso, a aplicação capacita os usuários a criarem e editarem posts no blog, com as postagens sendo salvas diretamente no banco de dados, garantindo uma persistência eficaz das informações.",
+
+        "Tronmart E-Commerce is an online shopping platform built with the React.js framework. Focused on practicality, it offers users a simple and direct shopping experience. They can browse different products and add them to their cart with ease, making the purchasing process intuitive and efficient.": "O Tronmart E-Commerce é uma plataforma de compras online construída com o framework React.js. Focado na praticidade, oferece aos usuários uma experiência de compra simples e direta. Eles podem navegar por diversos produtos e adicioná-los ao carrinho com facilidade, tornando o processo de compra intuitivo e eficiente.",
+
+        "Control panel to access the number of sales, and total sales for a certain period of time. The input fields contain the month and year to assist in retrieving data from the database. When these fields are selected, an asynchronous request is made using the AJAX methodology to the server using the JQUERY library. And through PHP, the connection is made to the database, which provides the necessary information to populate the input fields.": "Painel de controle para acesso ao número de vendas, e o total de vendas de um determinado período de tempo. Os campos input contém o mês e o ano para auxiliar na recuperação dos dados do banco de dados . Quando esses campos forem selecionados, através da biblioteca JQUERY é feita uma requisição assíncrona através da metodologia AJAX para o servidor. E através do PHP é feita a conexão com o banco de dados, que fornece as informações necessárias para popular os campos do input.",
+
+        "A quick and fun mini game to run in browsers. You will have to survive for 15 seconds eliminating all the flies that appear on the screen. Contains 3 difficulty levels.": "Um mini game rápido e divertido para rodar em browsers. Você tera que sobreviver por 15 segundos eliminando todas as moscas que aparecerem na tela. Contém 3 níveis de dificuldade.",
+
+        "fly swatting game": "Jogo mata mosquito",
+        "No Projects...": "Sem Projetos...",
+        "Do you have any projects? send a message": "Você tem algum projeto ? Mande mensagem",
+
+        "Get in touch and let me know how I can help. Fill out the form, and I will get in touch as soon as possible.": "Entre em contato e diga como posso ajudar. Preencha o formulario, e  entrarei em contato o mais breve possivel.",
+
+        "Phone": "Telefone",
+        "Name": "Nome",
+        "Submit": "Enviar",
+        " All rights reserved": "Todos os direitos reservados",
+        "Write your email": "Digite seu email",
+        "Write your phone": "Digite seu telefone",
+        "Write your name": "Digite seu nome"
+        
+    }
+}
