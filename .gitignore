@@ -1,0 +1,20 @@
+# Arquivos de compilação
+*.o
+*.out
+*.exe
+
+# Arquivos de backup
+*~
+
+# Diretórios gerados
+bin/
+build/
+node_modules/
+
+# Arquivos de configuração sensíveis
+config.json
+secrets.ini
+
+# Logs e arquivos temporários
+log/
+tmp/

@@ -3,6 +3,7 @@ import * as C from './../Styles'
 
 import Blog from './../../../assets/Gallery-images/blog.png'
 import Booking from './../../../assets/Gallery-images/booking.png'
+import Job from './../../../assets/Gallery-images/jobAI.png'
 
 import { HiPlus } from "react-icons/hi2";
 
@@ -82,6 +83,35 @@ const RecentesComponent = () => {
         </div>
         <div className='description-area'>
           <p className='description'>{t("Full stack blog that combines React.js on the frontend and Node.js with MySQL on the backend. In the user authentication part, I integrated the functionality using JSON Web Tokens (JWT), with the JWT tokens stored in cookies for efficient management of user sessions. Additionally, the application enables users to create and edit blog posts, with posts being saved directly to the database, ensuring effective persistence of information.")}</p>
+        </div>
+      </div>
+
+      <div
+        className='card'
+        onMouseEnter={() => handleMouseEnter(2)}
+        onMouseLeave={() => handleMouseLeave(2)}
+      >
+        <div className='img'>
+          <img src={Job} width={400} height={300} alt="Ecommerce" />
+          {hoveredItems[2] && (
+            <a href='https://job-ai-yf7m.vercel.app/'>
+              <div className="overlay">
+                <HiPlus className="icon" />
+              </div>
+            </a>
+          )}
+        </div>
+        <h1 className='title'>{t("JobAI platform")}</h1>
+        <div className='stack-container'>
+          <span className='stack'>ReactJS</span>
+          <span className='stack'>NodeJS</span>
+          <span className='stack'>Express</span>
+          <span className='stack'>Json-Web-Token</span>
+          <span className='stack'>Cookie-Parser</span>
+          <span className='stack'>PostgreSQL</span>
+        </div>
+        <div className='description-area'>
+          <p className='description'>{t("JobAI is an efficient job search platform. Users can create an account, log in and search for jobs by position and location. We offer an integrated resume generator. We are constantly improving to provide the best experience for our users.")}</p>
         </div>
       </div>
 
