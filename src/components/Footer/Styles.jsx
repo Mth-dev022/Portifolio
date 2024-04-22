@@ -66,6 +66,7 @@ export const Container = styled.footer`
             outline:none;
             margin-left: 15px;
             width: 80%;
+            background-color: transparent;
         }
         .content {
             padding-top: 30px;
@@ -84,7 +85,17 @@ export const Container = styled.footer`
             background-color: black;
             font-weight: 600;
             cursor: pointer;
+
+            &:hover {
+                background-color: #151515f0;
+            }
         }
+        .error-message {
+        color: red;
+        text-align: center;
+        margin-top: 10px;
+        font-weight: 600;
+    }
 `
 export const Footer = styled.footer`
    width: 100%;

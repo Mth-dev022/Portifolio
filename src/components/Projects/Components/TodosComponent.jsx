@@ -10,11 +10,11 @@ import Job from '../../../assets/Gallery-images/jobAI.png'
 
 import { HiPlus } from "react-icons/hi2";
 
-import {useTranslation} from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 
 const TodosComponent = () => {
-  
-  const {t} = useTranslation()
+
+  const { t } = useTranslation()
 
   const [hoveredItems, setHoveredItems] = useState(Array(8).fill(false));
 
@@ -96,6 +96,35 @@ const TodosComponent = () => {
 
       <div
         className='card'
+        onMouseEnter={() => handleMouseEnter(2)}
+        onMouseLeave={() => handleMouseLeave(2)}
+      >
+        <div className='img'>
+          <img src={Job} width={400} height={300} alt="Ecommerce" />
+          {hoveredItems[2] && (
+            <a href='https://job-ai-yf7m.vercel.app/'>
+              <div className="overlay">
+                <HiPlus className="icon" />
+              </div>
+            </a>
+          )}
+        </div>
+        <h1 className='title'>{t("JobAI platform")}</h1>
+        <div className='stack-container'>
+          <span className='stack'>ReactJS</span>
+          <span className='stack'>NodeJS</span>
+          <span className='stack'>Express</span>
+          <span className='stack'>Json-Web-Token</span>
+          <span className='stack'>Cookie-Parser</span>
+          <span className='stack'>PostgreSQL</span>
+        </div>
+        <div className='description-area'>
+          <p className='description'>{t("JobAI is an efficient job search platform. Users can create an account, log in and search for jobs by position and location. We offer an integrated resume generator. We are constantly improving to provide the best experience for our users.")}</p>
+        </div>
+      </div>
+
+      <div
+        className='card'
         onMouseEnter={() => handleMouseEnter(0)}
         onMouseLeave={() => handleMouseLeave(0)}
       >
@@ -130,7 +159,7 @@ const TodosComponent = () => {
         <div className='img'>
           <img src={Dashboard} width={400} height={300} alt="Ecommerce" />
           {hoveredItems[1] && (
-            <a href='https://github.com/Mth-dev022/Dashboard'>
+            <a href="https://github.com/Mth-dev022/Booking_Reservation">
               <div className="overlay">
                 <HiPlus className="icon" />
               </div>
@@ -139,15 +168,16 @@ const TodosComponent = () => {
         </div>
         <h1 className='title'>Dashboard</h1>
         <div className='stack-container'>
-          <span className='stack'>HTML5</span>
-          <span className='stack'>CSS3</span>
-          <span className='stack'>Java-Script</span>
-          <span className='stack'>JQUERY</span>
-          <span className='stack'>PHP</span>
-          <span className='stack'>MySQL</span>
+          <span className='stack'>ReactJS</span>
+          <span className='stack'>NodeJS</span>
+          <span className='stack'>Axios</span>
+          <span className='stack'>@mui/icons-material</span>
+          <span className='stack'>@mui/x-data-grid</span>
+          <span className='stack'>Recharts</span>
+          <span className='stack'>React-circular-progressbar</span>
         </div>
         <div className='description-area'>
-          <p className='description'>{t("Control panel to access the number of sales, and total sales for a certain period of time. The input fields contain the month and year to assist in retrieving data from the database. When these fields are selected, an asynchronous request is made using the AJAX methodology to the server using the JQUERY library. And through PHP, the connection is made to the database, which provides the necessary information to populate the input fields.")}</p>
+          <p className='description'>{t("The hotel booking app admin panel gives you full control over the system. Administrators can manage users, add and edit hotel and room information, and track reservations made by users. This tool simplifies and speeds up application management, ensuring efficient and personalized operation.")}</p>
         </div>
       </div>
 
@@ -174,35 +204,6 @@ const TodosComponent = () => {
         </div>
         <div className='description-area'>
           <p className='description'>{t("A quick and fun mini game to run in browsers. You will have to survive for 15 seconds eliminating all the flies that appear on the screen. Contains 3 difficulty levels.")}</p>
-        </div>
-      </div>
-
-      <div
-        className='card'
-        onMouseEnter={() => handleMouseEnter(2)}
-        onMouseLeave={() => handleMouseLeave(2)}
-      >
-        <div className='img'>
-          <img src={Job} width={400} height={300} alt="Ecommerce" />
-          {hoveredItems[2] && (
-            <a href='https://job-ai-yf7m.vercel.app/'>
-              <div className="overlay">
-                <HiPlus className="icon" />
-              </div>
-            </a>
-          )}
-        </div>
-        <h1 className='title'>{t("JobAI platform")}</h1>
-        <div className='stack-container'>
-          <span className='stack'>ReactJS</span>
-          <span className='stack'>NodeJS</span>
-          <span className='stack'>Express</span>
-          <span className='stack'>Json-Web-Token</span>
-          <span className='stack'>Cookie-Parser</span>
-          <span className='stack'>PostgreSQL</span>
-        </div>
-        <div className='description-area'>
-          <p className='description'>{t("JobAI is an efficient job search platform. Users can create an account, log in and search for jobs by position and location. We offer an integrated resume generator. We are constantly improving to provide the best experience for our users.")}</p>
         </div>
       </div>
 

@@ -26,6 +26,7 @@ const Habilidades = () => {
                         HTML5
                         - CSS3
                         - Java-Script
+                    
                     </p>
                 </div>
 
@@ -37,6 +38,8 @@ const Habilidades = () => {
                     <p className='card-text'>
                         React.JS
                         - TypeScript
+                        - Jest
+                        - React Testing library
                         - SASS
                         - Bootstrap5
                         - Styled-components
@@ -51,16 +54,6 @@ const Habilidades = () => {
                         {t("Knowledge of working with APIs in the REST standard.")}
                     </p>
                     <p className='card-text'>{t("ecosystem")} Java-Script: FetchAPI, contextAPI, DOM</p>
-                </div>
-
-                <div className='cards'>
-                    <img src={Icon04} />
-                    <h2>{t("DATABASES")}</h2>
-                    <p className='card-text'>
-                        {t("Knowledge to manage:")} </p>
-                    <p className='card-text'>
-                        MySQL
-                        - MongoDB </p>
                 </div>
 
             </div>
