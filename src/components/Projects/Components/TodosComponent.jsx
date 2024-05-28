@@ -3,7 +3,7 @@ import * as C from './../Styles'
 
 import Tronmart from './../../../assets/Gallery-images/tronmart.png'
 import Dashboard from './../../../assets/Gallery-images/dashboard.png'
-import Game from './../../../assets/Gallery-images/game.png'
+import Quiz from './../../../assets/Gallery-images/Sem titulo.png'
 import Blog from '../../../assets/Gallery-images/blog.png'
 import Booking from '../../../assets/Gallery-images/booking.png'
 import Job from '../../../assets/Gallery-images/jobAI.png'
@@ -187,23 +187,28 @@ const TodosComponent = () => {
         onMouseLeave={() => handleMouseLeave(2)}
       >
         <div className='img'>
-          <img src={Game} width={400} height={300} alt="Ecommerce" />
+          <img src={Quiz} width={400} height={300} alt="Ecommerce" />
           {hoveredItems[2] && (
-            <a href='https://jogo-mata-mosquito-tan.vercel.app/'>
+            <a href='https://rocket-x-orpin.vercel.app/'>
               <div className="overlay">
                 <HiPlus className="icon" />
               </div>
             </a>
           )}
         </div>
-        <h1 className='title'>{t("fly swatting game")}</h1>
+        <h1 className='title'>{t("Rocket-x Quiz")}</h1>
         <div className='stack-container'>
-          <span className='stack'>HTML5</span>
-          <span className='stack'>CSS3</span>
-          <span className='stack'>Java-Script</span>
+          <span className='stack'>ReactJS</span>
+          <span className='stack'>Typescript</span>
+          <span className='stack'>Redux Toolkit</span>
+          <span className='stack'>NodeJS</span>
+          <span className='stack'>Docker</span>
+          <span className='stack'>Jest</span>
+          <span className='stack'>Cypress</span>
+          <span className='stack'>MongoDB</span>
         </div>
         <div className='description-area'>
-          <p className='description'>{t("A quick and fun mini game to run in browsers. You will have to survive for 15 seconds eliminating all the flies that appear on the screen. Contains 3 difficulty levels.")}</p>
+          <p className='description'>{t("A quiz made for developers. You can choose the category in which the questions are generated.")}</p>
         </div>
       </div>
 
