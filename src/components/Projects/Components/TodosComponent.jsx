@@ -3,7 +3,7 @@ import * as C from './../Styles'
 
 import Tronmart from './../../../assets/Gallery-images/tronmart.png'
 import Dashboard from './../../../assets/Gallery-images/dashboard.png'
-import Quiz from './../../../assets/Gallery-images/Sem titulo.png'
+import Quiz from './../../../assets/Gallery-images/quiz.png'
 import Blog from '../../../assets/Gallery-images/blog.png'
 import Booking from '../../../assets/Gallery-images/booking.png'
 import Job from '../../../assets/Gallery-images/jobAI.png'
@@ -187,7 +187,7 @@ const TodosComponent = () => {
         onMouseLeave={() => handleMouseLeave(2)}
       >
         <div className='img'>
-          <img src={Quiz} width={400} height={300} alt="Ecommerce" />
+          <img src={Quiz} width={400} height={300} alt="Quiz" />
           {hoveredItems[2] && (
             <a href='https://rocket-x-orpin.vercel.app/'>
               <div className="overlay">
