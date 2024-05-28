@@ -204,11 +204,13 @@ const TodosComponent = () => {
           <span className='stack'>NodeJS</span>
           <span className='stack'>Docker</span>
           <span className='stack'>Jest</span>
+          <span className='stack'>Supertest</span>
           <span className='stack'>Cypress</span>
           <span className='stack'>MongoDB</span>
+          <span className='stack'>CI/CD</span>
         </div>
         <div className='description-area'>
-          <p className='description'>{t("A quiz made for developers. You can choose the category in which the questions are generated.")}</p>
+          <p className='description'>{t("Rocket-x is an interactive quiz platform, aimed specifically at developers, designed to offer a fun and educational experience by testing and improving knowledge in specific technologies. Developed with a full-stack architecture, it integrates the front-end with a Docker container built for the back-end.")}</p>
         </div>
       </div>
 
